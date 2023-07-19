@@ -12,3 +12,17 @@
 // console.log(
 //     capitalizeTitle("akash khot the great man")
 // )
+function capitalizeTitle(title) {
+    var words = title.split(" ");
+    var capitalizedWords = words.map(function (word) {
+        if (word.length <= 2) {
+            return word.toLowerCase();
+        }
+        else {
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }
+    });
+    return capitalizedWords.join(" ");
+}
+;
+console.log(capitalizeTitle("akash khot is the great man"));

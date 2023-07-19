@@ -25,6 +25,7 @@ function capitalizeTitle(title: string): string {
     });
     return capitalizedWords.join(" ");
 };
-
-console.log(capitalizeTitle("akash khot is the great man"));
+console.log(
+    capitalizeTitle("akash khot is the great man")
+    );
 

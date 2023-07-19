@@ -1,12 +1,14 @@
-function capitalizeTitle(title) {
-    var sentence = title.split(" ");
-    for (var _i = 0, sentence_1 = sentence; _i < sentence_1.length; _i++) {
-        var sentences = sentence_1[_i];
-        var firstLetter = sentences.substring(0, 1);
-        firstLetter = firstLetter.toUpperCase();
-        console.log(firstLetter);
-    }
-    return title;
-}
-;
-console.log(capitalizeTitle("akash khot the great man "));
+// function capitalizeTitle(title: string): any {
+// const sentence =title.split(" ")
+// const newArray=[]
+// for(const sentences of sentence){
+//    let firstLetter=sentences.substring(0, 1)
+//    firstLetter=firstLetter.toUpperCase() 
+//    let restLetter=sentences.substring(1)
+//    newArray.push(firstLetter + restLetter)
+// }
+//    return newArray.join(" ")
+// };
+// console.log(
+//     capitalizeTitle("akash khot the great man")
+// )

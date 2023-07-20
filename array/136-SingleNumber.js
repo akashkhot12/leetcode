@@ -5,6 +5,5 @@ function singleNumber(nums) {
         }
     }
 }
-;
-var a1 = singleNumber([2, 2, 1]);
+let a1 = singleNumber([2, 2, 1]);
 console.log(a1);

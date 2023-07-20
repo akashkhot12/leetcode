@@ -14,7 +14,7 @@
 // )
 
 
-function capitalizeTitle(title: string): string {
+function capitalizeTitle(title : String): String {
     const words = title.split(" ");
     const capitalizedWords = words.map(word => {
         if (word.length <= 2) {
